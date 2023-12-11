@@ -1,0 +1,2 @@
+slurmstepd: error: *** JOB 15607298 ON n0267.savio3 CANCELLED AT 2023-12-11T11:40:29 DUE TO TIME LIMIT ***
+slurmstepd: error: Detected 135 oom-kill event(s) in StepId=15607298.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

@@ -1,0 +1,111 @@
+
+# >>>>>>>>>>>>>>>>>>>>>> ERROR REPORT <<<<<<<<<<<<<<<<<<<<<<
+
+    Traceback (most recent call last):
+      File "/global/software/sl-7.x86_64/modules/langs/python/3.10/lib/python3.10/site-packages/conda/exceptions.py", line 1132, in __call__
+        return func(*args, **kwargs)
+      File "/global/software/sl-7.x86_64/modules/langs/python/3.10/lib/python3.10/site-packages/conda/cli/main.py", line 69, in main_subshell
+        exit_code = do_call(args, p)
+      File "/global/software/sl-7.x86_64/modules/langs/python/3.10/lib/python3.10/site-packages/conda/cli/conda_argparse.py", line 122, in do_call
+        return getattr(module, func_name)(args, parser)
+      File "/global/software/sl-7.x86_64/modules/langs/python/3.10/lib/python3.10/site-packages/conda/cli/main_run.py", line 29, in execute
+        response = subprocess_call(
+      File "/global/software/sl-7.x86_64/modules/langs/python/3.10/lib/python3.10/site-packages/conda/gateways/subprocess.py", line 98, in subprocess_call
+        stdout, stderr = process.communicate(input=stdin)
+      File "/global/software/sl-7.x86_64/modules/langs/python/3.10/lib/python3.10/subprocess.py", line 1154, in communicate
+        stdout, stderr = self._communicate(input, endtime, timeout)
+      File "/global/software/sl-7.x86_64/modules/langs/python/3.10/lib/python3.10/subprocess.py", line 2005, in _communicate
+        ready = selector.select(timeout)
+      File "/global/software/sl-7.x86_64/modules/langs/python/3.10/lib/python3.10/selectors.py", line 416, in select
+        fd_event_list = self._selector.poll(timeout)
+    OSError: [Errno 14] Bad address
+
+`$ /global/software/sl-7.x86_64/modules/langs/python/3.10/bin/conda run -n dimelo_arbitrary_basemod_dev /clusterfs/nilah/oberon/repos/dimelo-peak-calling/preprocessing/process_dimelo-to-bigwig.py --chromosome chr11 --output_folder /global/scratch/users/dixonluinenburg/whole_genome_bigwigs/GM12878_CTCF_deep/chr11/ --bam_file /clusterfs/nilah/oberon/dimelo_dev_source/test_inputs/deep_ctcf_mod_mappings_merge.sorted.bam --name ctcf_deep --reference_genome /clusterfs/nilah/oberon/dimelo_dev_source/test_inputs/genomes/chm13.draft_v1.0.fasta`
+
+  environment variables:
+                 CIO_TEST=<not set>
+          CONDA_PKGS_DIRS=/clusterfs/nilah/oberon/conda_pkgs
+               CONDA_ROOT=/global/software/sl-7.x86_64/modules/langs/python/3.10
+                    CPATH=/global/software/sl-7.x86_64/modules/langs/python/3.10/include
+           CURL_CA_BUNDLE=<not set>
+                    FPATH=/global/software/sl-7.x86_64/modules/langs/python/3.10/include
+                 INFOPATH=/global/software/sl-7.x86_64/modules/tools/emacs/25.1/share/info
+          LD_LIBRARY_PATH=/clusterfs/nilah/oberon/python/lib/:
+               LD_PRELOAD=<not set>
+             LIBRARY_PATH=/global/software/sl-7.x86_64/modules/langs/python/3.10/lib
+                  MANPATH=/global/software/sl-
+                          7.x86_64/modules/langs/python/3.10/share/man:/global/software/sl-
+                          7.x86_64/modules/tools/emacs/25.1/share/man:/global/software/sl-
+                          7.x86_64/modules/tools/vim/7.4/share/man:/usr/share/lmod/lmod/share/ma
+                          n::
+               MODULEPATH=/global/software/sl-7.x86_64/modfiles/langs:/global/software/sl-
+                          7.x86_64/modfiles/tools:/global/software/sl-
+                          7.x86_64/modfiles/apps:/global/home/groups/consultsw/sl-
+                          7.x86_64/modfiles:/global/software/sl-7.x86_64/modfiles/python/3.10.10
+                     PATH=/global/software/sl-
+                          7.x86_64/modules/langs/python/3.10/bin:/global/software/sl-
+                          7.x86_64/modules/tools/sq/0.1.0/bin:/global/software/sl-
+                          7.x86_64/modules/tools/emacs/25.1/bin:/global/software/sl-
+                          7.x86_64/modules/tools/vim/7.4/bin:/usr/local/bin:/usr/bin:/usr/local/
+                          sbin:/usr/sbin:/global/home/groups/allhands/bin:/global/home/users/dix
+                          onluinenburg/bin
+          PKG_CONFIG_PATH=/global/software/sl-7.x86_64/modules/langs/python/3.10/lib/pkgconfig
+               PYTHON_DIR=/global/software/sl-7.x86_64/modules/langs/python/3.10
+       REQUESTS_CA_BUNDLE=<not set>
+            SSL_CERT_FILE=<not set>
+   __LMOD_REF_COUNT_CPATH=/global/software/sl-7.x86_64/modules/langs/python/3.10/include:1
+   __LMOD_REF_COUNT_FPATH=/global/software/sl-7.x86_64/modules/langs/python/3.10/include:1
+__LMOD_REF_COUNT_LIBRARY_PATH=/global/software/sl-7.x86_64/modules/langs/python/3.10/lib:1
+ __LMOD_REF_COUNT_MANPATH=/global/software/sl-
+                          7.x86_64/modules/langs/python/3.10/share/man:1;/global/software/sl-
+                          7.x86_64/modules/tools/emacs/25.1/share/man:1;/global/software/sl-
+                          7.x86_64/modules/tools/vim/7.4/share/man:1;/usr/share/lmod/lmod/share/
+                          man:1
+__LMOD_REF_COUNT_MODULEPATH=/global/software/sl-7.x86_64/modfiles/langs:1;/global/software/sl-
+                          7.x86_64/modfiles/tools:1;/global/software/sl-
+                          7.x86_64/modfiles/apps:1;/global/home/groups/consultsw/sl-
+                          7.x86_64/modfiles:1;/global/software/sl-
+                          7.x86_64/modfiles/python/3.10.10:1
+    __LMOD_REF_COUNT_PATH=/global/software/sl-
+                          7.x86_64/modules/langs/python/3.10/bin:1;/global/software/sl-
+                          7.x86_64/modules/tools/sq/0.1.0/bin:1;/global/software/sl-
+                          7.x86_64/modules/tools/emacs/25.1/bin:1;/global/software/sl-
+                          7.x86_64/modules/tools/vim/7.4/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/
+                          local/sbin:1;/usr/sbin:1;/global/home/groups/allhands/bin:1;/global/ho
+                          me/users/dixonluinenburg/bin:1
+__LMOD_REF_COUNT_PKG_CONFIG_PATH=/global/software/sl-7.x86_64/modules/langs/python/3.10/lib/pkgconfig:1
+
+     active environment : None
+       user config file : /global/home/users/dixonluinenburg/.condarc
+ populated config files : /global/home/users/dixonluinenburg/.condarc
+          conda version : 23.3.1
+    conda-build version : 3.24.0
+         python version : 3.10.10.final.0
+       virtual packages : __archspec=1=x86_64
+                          __glibc=2.17=0
+                          __linux=3.10.0=0
+                          __unix=0=0
+       base environment : /global/software/sl-7.x86_64/modules/langs/python/3.10  (read only)
+      conda av data dir : /global/software/sl-7.x86_64/modules/langs/python/3.10/etc/conda
+  conda av metadata url : None
+           channel URLs : https://conda.anaconda.org/conda-forge/linux-64
+                          https://conda.anaconda.org/conda-forge/noarch
+                          https://conda.anaconda.org/bioconda/linux-64
+                          https://conda.anaconda.org/bioconda/noarch
+                          https://repo.anaconda.com/pkgs/main/linux-64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/linux-64
+                          https://repo.anaconda.com/pkgs/r/noarch
+          package cache : /clusterfs/nilah/oberon/conda_pkgs
+       envs directories : /global/home/users/dixonluinenburg/.conda/envs
+                          /global/software/sl-7.x86_64/modules/langs/python/3.10/envs
+               platform : linux-64
+             user-agent : conda/23.3.1 requests/2.31.0 CPython/3.10.10 Linux/3.10.0-1160.31.1.el7.x86_64 scientific/7.9 glibc/2.17
+                UID:GID : 47374:501
+             netrc file : None
+           offline mode : False
+
+
+An unexpected error has occurred. Conda has prepared the above report.
+
+slurmstepd: error: Detected 43 oom-kill event(s) in StepId=15607169.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
