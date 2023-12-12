@@ -1,0 +1,7 @@
+pomegranate==0.14.8
+pyBigWig
+pysam
+tqdm
+matplotlib
+scipy
+numpy
