@@ -1,0 +1,33 @@
+--2023-12-12 16:57:51--  https://www.encodeproject.org/files/ENCFF797SDL/@@download/ENCFF797SDL.bed.gz
+Resolving www.encodeproject.org (www.encodeproject.org)... 34.211.244.144
+Connecting to www.encodeproject.org (www.encodeproject.org)|34.211.244.144|:443... connected.
+HTTP request sent, awaiting response... 307 Temporary Redirect
+Location: https://encode-public.s3.amazonaws.com/2020/10/01/312ba92e-ab0d-4c1a-b37a-1fe3d3f13f86/ENCFF797SDL.bed.gz?response-content-disposition=attachment%3B%20filename%3DENCFF797SDL.bed.gz&AWSAccessKeyId=ASIATGZNGCNX66UHBTG4&Signature=LNc6HWSVMiuwkwqrMnK7RUX0YfY%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEMD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDEkGHAlxASM4smKp%2FFJcJoKYLXCNNon4lcrX2H7KSNpAIhALuoCSPpjBFPa2W1ZKcpQppw7vmIn6tuYMg0CfKFwsdXKrMFCDkQABoMMjIwNzQ4NzE0ODYzIgwlEktqQAoP1h48JoYqkAWhL7dDl%2Ba5pHcDntNG%2BB4opC0dX9w9%2FW01L9GmryHLp9grG37MISsIAEFpwXKqODH8mM8gi61r1y3s1Z3VAN44m2dwB%2FzJ0ZCWeR1q01I2qYuI%2FavkjPIXLRDjWWLTj%2FtsjEm4SYeFLn%2BbmqDjD%2FYr2QaK6hjzxi2Mjxsj%2BSfEqRbackJWy8K9xwewYyDsVrqWYgiGizPufUefgBd3UYXYSZbmpxt%2BInrPuP%2B6epOpbHHjXfUcUSzwWPoPgaL5qg241uQkNBEmR%2Byp8K3ahQBybdjvf3cZIPO7qX4rDfUxZVia5SPX2UfM%2BaqFLn21lBKE6reUs%2FsbJ83ZEhtaCqhNsvv7EBM4IEy6SBB%2FU9ihQ8HUT1OKE3tUf8W0ntj59AWQqBlKiCJ%2FmxpA6ulxFPMOWFLO1m9gisckzD%2FQRw%2BKCp0kIn%2Furg4VbWZGM3M75xWkiXima%2BNXJv6m8UH7wtoORpNjzYnK%2BOO3B8OowR%2BlCceKSaNNjpmVxtiLz%2BvMK1kFp%2FuTwxDhkfygWKZcZbGdvi1aF8nduyZntF5p3vgvMb5pIG50lcGz3IpGQetd2q228B1T1%2FMrNXhbEVIJQfurC28gMndu68VX7LvWJ5xmTcuUWGjjDhpKJPvaMr%2BFAnM2aIWm%2B0Bn7VS6aPmBcnqe6YEMBTAcCdjZRD6%2Bl%2BHr9Il8e%2BcFFy59X%2BpuycB5seucZC1DcZxuePfjmfI%2FKaYJPAH110WuH%2FlnMOtlg%2BeE%2Fw2DmuA1vOZ4CMwvoPUkwSZX%2BuDe3x273uXxp4rYz9jQpPs1u6TuhZ1bR2NAEjCHbxwFquigkfA7%2FBbtFNNpA3sr41ghk%2FJDBe3VycPBSmpbyVhArEyHM7sajSzQ%2FS19jTCq6OOrBjqwAccklQ97t8fM%2BGNkERhQMSBgCREOhQb%2BK1c05QCAjJFsCR%2B3qPfz6cWvxHTlsC%2BIfojzO92jJIroNfb3VFxieP9F8aspUzWacUQh3AAwCk6DUIN4earY5Gsha2Wp4XDtsPP4nVIVyeyFhbwwFHxosYPa1Nk8CxgX6wGMjHMNqpMvsWr4fkLMX3jYc5ZruifajrfVDIqBxstRjBh2fzARn%2B8I6gkisv9%2F0vpeSZ9vw5W8&Expires=1702558671 [following]
+--2023-12-12 16:57:51--  https://encode-public.s3.amazonaws.com/2020/10/01/312ba92e-ab0d-4c1a-b37a-1fe3d3f13f86/ENCFF797SDL.bed.gz?response-content-disposition=attachment%3B%20filename%3DENCFF797SDL.bed.gz&AWSAccessKeyId=ASIATGZNGCNX66UHBTG4&Signature=LNc6HWSVMiuwkwqrMnK7RUX0YfY%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEMD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDEkGHAlxASM4smKp%2FFJcJoKYLXCNNon4lcrX2H7KSNpAIhALuoCSPpjBFPa2W1ZKcpQppw7vmIn6tuYMg0CfKFwsdXKrMFCDkQABoMMjIwNzQ4NzE0ODYzIgwlEktqQAoP1h48JoYqkAWhL7dDl%2Ba5pHcDntNG%2BB4opC0dX9w9%2FW01L9GmryHLp9grG37MISsIAEFpwXKqODH8mM8gi61r1y3s1Z3VAN44m2dwB%2FzJ0ZCWeR1q01I2qYuI%2FavkjPIXLRDjWWLTj%2FtsjEm4SYeFLn%2BbmqDjD%2FYr2QaK6hjzxi2Mjxsj%2BSfEqRbackJWy8K9xwewYyDsVrqWYgiGizPufUefgBd3UYXYSZbmpxt%2BInrPuP%2B6epOpbHHjXfUcUSzwWPoPgaL5qg241uQkNBEmR%2Byp8K3ahQBybdjvf3cZIPO7qX4rDfUxZVia5SPX2UfM%2BaqFLn21lBKE6reUs%2FsbJ83ZEhtaCqhNsvv7EBM4IEy6SBB%2FU9ihQ8HUT1OKE3tUf8W0ntj59AWQqBlKiCJ%2FmxpA6ulxFPMOWFLO1m9gisckzD%2FQRw%2BKCp0kIn%2Furg4VbWZGM3M75xWkiXima%2BNXJv6m8UH7wtoORpNjzYnK%2BOO3B8OowR%2BlCceKSaNNjpmVxtiLz%2BvMK1kFp%2FuTwxDhkfygWKZcZbGdvi1aF8nduyZntF5p3vgvMb5pIG50lcGz3IpGQetd2q228B1T1%2FMrNXhbEVIJQfurC28gMndu68VX7LvWJ5xmTcuUWGjjDhpKJPvaMr%2BFAnM2aIWm%2B0Bn7VS6aPmBcnqe6YEMBTAcCdjZRD6%2Bl%2BHr9Il8e%2BcFFy59X%2BpuycB5seucZC1DcZxuePfjmfI%2FKaYJPAH110WuH%2FlnMOtlg%2BeE%2Fw2DmuA1vOZ4CMwvoPUkwSZX%2BuDe3x273uXxp4rYz9jQpPs1u6TuhZ1bR2NAEjCHbxwFquigkfA7%2FBbtFNNpA3sr41ghk%2FJDBe3VycPBSmpbyVhArEyHM7sajSzQ%2FS19jTCq6OOrBjqwAccklQ97t8fM%2BGNkERhQMSBgCREOhQb%2BK1c05QCAjJFsCR%2B3qPfz6cWvxHTlsC%2BIfojzO92jJIroNfb3VFxieP9F8aspUzWacUQh3AAwCk6DUIN4earY5Gsha2Wp4XDtsPP4nVIVyeyFhbwwFHxosYPa1Nk8CxgX6wGMjHMNqpMvsWr4fkLMX3jYc5ZruifajrfVDIqBxstRjBh2fzARn%2B8I6gkisv9%2F0vpeSZ9vw5W8&Expires=1702558671
+Resolving encode-public.s3.amazonaws.com (encode-public.s3.amazonaws.com)... 52.92.209.249, 52.218.168.155, 52.92.197.145, ...
+Connecting to encode-public.s3.amazonaws.com (encode-public.s3.amazonaws.com)|52.92.209.249|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 666961 (651K) [binary/octet-stream]
+Saving to: 'ENCFF797SDL.bed.gz'
+
+     0K .......... .......... .......... .......... ..........  7%  571K 1s
+    50K .......... .......... .......... .......... .......... 15%  566K 1s
+   100K .......... .......... .......... .......... .......... 23%  644K 1s
+   150K .......... .......... .......... .......... .......... 30%  754K 1s
+   200K .......... .......... .......... .......... .......... 38%  912K 1s
+   250K .......... .......... .......... .......... .......... 46%  895K 1s
+   300K .......... .......... .......... .......... .......... 53% 1.11M 0s
+   350K .......... .......... .......... .......... .......... 61%  916K 0s
+   400K .......... .......... .......... .......... .......... 69% 1.10M 0s
+   450K .......... .......... .......... .......... .......... 76% 1.45M 0s
+   500K .......... .......... .......... .......... .......... 84% 1.11M 0s
+   550K .......... .......... .......... .......... .......... 92% 1.50M 0s
+   600K .......... .......... .......... .......... .......... 99% 1.45M 0s
+   650K .                                                     100% 2535G=0.7s
+
+2023-12-12 16:57:52 (907 KB/s) - 'ENCFF797SDL.bed.gz' saved [666961/666961]
+
+Reading liftover chains
+Mapping coordinates
+Reading liftover chains
+Mapping coordinates
