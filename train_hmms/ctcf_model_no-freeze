@@ -1,0 +1,120 @@
+{
+    "class" : "HiddenMarkovModel",
+    "name" : "CTCF_Peaks_no-freeze",
+    "start" : {
+        "class" : "State",
+        "distribution" : null,
+        "name" : "CTCF_Peaks_no-freeze-start",
+        "weight" : 1.0
+    },
+    "end" : {
+        "class" : "State",
+        "distribution" : null,
+        "name" : "CTCF_Peaks_no-freeze-end",
+        "weight" : 1.0
+    },
+    "states" : [
+        {
+            "class" : "State",
+            "distribution" : {
+                "class" : "Distribution",
+                "name" : "NormalDistribution",
+                "parameters" : [
+                    0.00281866278777802,
+                    0.003937007475890527
+                ],
+                "frozen" : false
+            },
+            "name" : "background",
+            "weight" : 1.0
+        },
+        {
+            "class" : "State",
+            "distribution" : {
+                "class" : "Distribution",
+                "name" : "NormalDistribution",
+                "parameters" : [
+                    0.029890774796454755,
+                    0.036868271068384605
+                ],
+                "frozen" : false
+            },
+            "name" : "ctcf",
+            "weight" : 1.0
+        },
+        {
+            "class" : "State",
+            "distribution" : null,
+            "name" : "CTCF_Peaks_no-freeze-start",
+            "weight" : 1.0
+        },
+        {
+            "class" : "State",
+            "distribution" : null,
+            "name" : "CTCF_Peaks_no-freeze-end",
+            "weight" : 1.0
+        }
+    ],
+    "end_index" : 3,
+    "start_index" : 2,
+    "silent_index" : 2,
+    "edges" : [
+        [
+            2,
+            0,
+            0.7724866091402657,
+            0.998,
+            null
+        ],
+        [
+            2,
+            1,
+            0.2275133908597343,
+            0.002,
+            null
+        ],
+        [
+            0,
+            0,
+            0.918560375792264,
+            0.9,
+            null
+        ],
+        [
+            0,
+            1,
+            0.08038945418934004,
+            0.02,
+            null
+        ],
+        [
+            0,
+            3,
+            0.001050170018396082,
+            0.1,
+            null
+        ],
+        [
+            1,
+            0,
+            0.2602646382616422,
+            0.2,
+            null
+        ],
+        [
+            1,
+            1,
+            0.7388977108404833,
+            0.5,
+            null
+        ],
+        [
+            1,
+            3,
+            0.0008376508978745454,
+            0.1,
+            null
+        ]
+    ],
+    "distribution ties" : []
+}
